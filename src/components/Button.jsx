@@ -1,6 +1,6 @@
 function Button(props) {
   return (
-    <button {...props} className="bg-slate-800 text-white p-2 rounded-md ml-2">
+    <button {...props} className="bg-slate-400 text-white p-2 rounded-md ml-2">
       {props.children}
     </button>
   );
